@@ -1,0 +1,19 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: netcoreapp3.1
+
+nuget FSharp.Core
+
+nuget Microsoft.EntityFrameworkCore
+nuget Microsoft.EntityFrameworkCore.Relational
+nuget Microsoft.EntityFrameworkCore.Design
+nuget Microsoft.EntityFrameworkCore.Tools
+
+nuget Npgsql.EntityFrameworkCore.PostgreSQL
+
+nuget linq2db
+nuget linq2db.EntityFrameworkCore
+nuget linq2db.PostgreSQL
+
+nuget BenchmarkDotNet
