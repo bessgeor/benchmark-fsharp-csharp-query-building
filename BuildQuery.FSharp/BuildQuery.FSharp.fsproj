@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>$(ExeTarget)</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="QueryBuilder.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataDefinition\DataDefinition.csproj" />
+    </ItemGroup>
+
+</Project>
