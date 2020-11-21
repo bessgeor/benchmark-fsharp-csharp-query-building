@@ -1,0 +1,10 @@
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Relational
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+
+Npgsql.EntityFrameworkCore.PostgreSQL
+
+linq2db
+linq2db.EntityFrameworkCore
+linq2db.PostgreSQL
