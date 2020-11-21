@@ -1,0 +1,14 @@
+﻿<Project>
+	<PropertyGroup>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+	<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+		<ExeTarget>netcoreapp3.1</ExeTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(MSBuildProjectExtension)'=='.csproj' ">
+		<LangVersion>8</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(MSBuildProjectExtension)'=='.fsproj' ">
+		<LangVersion>4.7</LangVersion>
+	</PropertyGroup>
+</Project>
